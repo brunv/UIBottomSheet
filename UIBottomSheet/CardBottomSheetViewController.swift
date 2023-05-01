@@ -9,6 +9,8 @@ import UIKit
 
 class CardBottomSheetViewController: UIViewController {
     var sheetHeight: CGFloat = 200
+    var horizontalPadding: CGFloat = 12
+    var bottomPadding: CGFloat = 26
     
     private var hasSetOriginPoint = false
     private var originPoint: CGPoint?
@@ -36,7 +38,7 @@ class CardBottomSheetViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.frame.size.height = sheetHeight
+        view.frame.size.height = sheetHeight + bottomPadding
         view.isUserInteractionEnabled = true
         view.backgroundColor = .clear
         
@@ -60,9 +62,9 @@ class CardBottomSheetViewController: UIViewController {
         
         NSLayoutConstraint.activate([
             cardView.topAnchor.constraint(equalTo: view.topAnchor),
-            cardView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 12),
-            cardView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -26),
-            cardView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -12)
+            cardView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: horizontalPadding),
+            cardView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -bottomPadding),
+            cardView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -horizontalPadding)
         ])
     }
     
