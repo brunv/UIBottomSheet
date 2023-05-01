@@ -13,6 +13,7 @@
 		372746C629FFF3AD00E0BB5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372746C529FFF3AD00E0BB5F /* Assets.xcassets */; };
 		372746C929FFF3AD00E0BB5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 372746C729FFF3AD00E0BB5F /* LaunchScreen.storyboard */; };
 		372746D229FFF95200E0BB5F /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372746D129FFF95200E0BB5F /* UIView+Extensions.swift */; };
+		372746D429FFF99900E0BB5F /* BottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372746D329FFF99900E0BB5F /* BottomSheetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		372746C829FFF3AD00E0BB5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		372746CA29FFF3AD00E0BB5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		372746D129FFF95200E0BB5F /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		372746D329FFF99900E0BB5F /* BottomSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				372746BC29FFF3AC00E0BB5F /* AppDelegate.swift */,
 				372746BE29FFF3AC00E0BB5F /* SceneDelegate.swift */,
 				372746C029FFF3AC00E0BB5F /* ViewController.swift */,
+				372746D329FFF99900E0BB5F /* BottomSheetViewController.swift */,
 				372746C529FFF3AD00E0BB5F /* Assets.xcassets */,
 				372746C729FFF3AD00E0BB5F /* LaunchScreen.storyboard */,
 				372746CA29FFF3AD00E0BB5F /* Info.plist */,
@@ -148,6 +151,7 @@
 				372746C129FFF3AC00E0BB5F /* ViewController.swift in Sources */,
 				372746BD29FFF3AC00E0BB5F /* AppDelegate.swift in Sources */,
 				372746D229FFF95200E0BB5F /* UIView+Extensions.swift in Sources */,
+				372746D429FFF99900E0BB5F /* BottomSheetViewController.swift in Sources */,
 				372746BF29FFF3AC00E0BB5F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
