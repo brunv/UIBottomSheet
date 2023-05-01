@@ -22,7 +22,7 @@ class CardBottomSheetViewController: UIViewController {
         view.backgroundColor = .white
         
         // iPhone's screen corner radius are not true circles, they're what we call "continuous curve".
-        // In iOS 13 we can set `layer.cornerCurve` to `.continue`, but we still don't have a way to
+        // In iOS 13 we can set `layer.cornerCurve` to `.continuous`, but we still don't have a way to
         // define the correct `cornerRadius` for each iPhone model.
         // You can get aproximate number from the community. See: https://github.com/kylebshr/ScreenCorners
         view.layer.cornerCurve = .continuous
