@@ -32,12 +32,13 @@ class ViewController: UIViewController, UIViewControllerTransitioningDelegate {
     }
     
     @objc func buttonTapped(_ sender: UIButton) {
-        let filterVC = BottomSheetViewController()
+        let bottomSheetVC = BottomSheetViewController()
+        // You can expose any property in BottomSheetViewController and set it in here.
         
-        filterVC.modalPresentationStyle = .custom
-        filterVC.transitioningDelegate = self
+        bottomSheetVC.modalPresentationStyle = .custom
+        bottomSheetVC.transitioningDelegate = self
         
-        self.present(filterVC, animated: true, completion: nil)
+        self.present(bottomSheetVC, animated: true, completion: nil)
     }
     
     func presentationController(forPresented presented: UIViewController, presenting: UIViewController?, source: UIViewController) -> UIPresentationController? {
